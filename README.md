@@ -1,4 +1,14 @@
+<img src="https://www.nme.com/wp-content/uploads/2017/09/Mr-Brightside-video-696x442.jpg" width="200">
+
 # react-native-brightside-auth
+
+A react-native library to authorize users based on the presence of Mr. Brightside on their phone (in Music / Apple music).
+
+## Suggested Use Cases
+- Banking
+- Stocks
+- HIPAA Compliant applications
+- The Killers app (They don't have one, but if they ever make one ill be sure to @ them on twitter)
 
 ## Getting started
 
@@ -17,6 +27,10 @@
 1. `cd ios && pod install`
 
 ## Usage
+
+
+### Import
+`import BrightsideAuth from 'react-native-use-health-kit';`
 
 ### Initialize Brightside Auth and get Music Permissions Status
 Startup also takes parameters to configure desired song and artist for authorization check.
@@ -46,9 +60,19 @@ These parameters are ignored, because we always check for Mr. Brightside
 BrightsideAuth.play();
 ```
 
+## Stop Mr. Brightside (not recommended)
+```
+BrightsideAuth.stop();
+```
+
 ## Why does this library get installed as react-native-use-health-kit?
 
 Because we stole and modified their code.
 
 Thanks @yoshifumi4423
 https://github.com/yoshifumi4423/react-native-use-health-kit#readme
+
+## Why does this exist?
+I don't know, why [is Mr. Brightside still in the UK charts?](http://ismrbrightsidestillintheukcharts.com/)
+
+Also, [Boston Stupid Shit No One Needs & Terrible Ideas Hackathon](https://bostonstupidhackathon.com/)
