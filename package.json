@@ -1,0 +1,62 @@
+{
+  "_from": "react-native-use-health-kit",
+  "_id": "react-native-use-health-kit@1.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-hMOMnI31gOwmQ+I5IWqDWH1XQFg3FE4dH1V4GpO2d4SE8b+sFxiu33NO14TM91GUg0V3CwamEvB5KHrFTiaA8w==",
+  "_location": "/react-native-use-health-kit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-use-health-kit",
+    "name": "react-native-use-health-kit",
+    "escapedName": "react-native-use-health-kit",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-use-health-kit/-/react-native-use-health-kit-1.1.3.tgz",
+  "_shasum": "b27b87dfc5ace642384ed9a7fb4ab2a3f16545e3",
+  "_spec": "react-native-use-health-kit",
+  "_where": "/Users/tonikaplan/BrightsideAuthDemo",
+  "author": {
+    "name": "Yoshifumi Kanno",
+    "email": "ykpublicjp@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/yoshifumi4423/react-native-use-health-kit/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React Native module which allows app to access Health Kit.",
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
+  },
+  "homepage": "https://github.com/yoshifumi4423/react-native-use-health-kit#readme",
+  "keywords": [
+    "react-native"
+  ],
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "main": "index.js",
+  "name": "react-native-use-health-kit",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshifumi4423/react-native-use-health-kit.git",
+    "baseUrl": "https://github.com/yoshifumi4423/react-native-use-health-kit"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "title": "React Native Use Health Kit",
+  "version": "1.1.3"
+}
