@@ -4,12 +4,6 @@
 
 A react-native library to authorize users based on the presence of Mr. Brightside on their phone (in Music / Apple music).
 
-## Suggested Use Cases
-- Banking
-- Stocks
-- HIPAA Compliant applications
-- The Killers app (They don't have one, but if they ever make one ill be sure to @ them on twitter)
-
 ## Getting started
 
 ### Installation - For yarn
@@ -64,6 +58,15 @@ BrightsideAuth.play();
 ```
 BrightsideAuth.stop();
 ```
+
+# FAQ
+
+## Use Cases?
+- Banking
+- Stocks
+- HIPAA Compliant applications
+- The Killers app (They don't have one, but if they ever make one ill be sure to @ them on twitter)
+
 
 ## Why does this library get installed as react-native-use-health-kit?
 
